@@ -1,0 +1,74 @@
+.navbar{
+    padding: 40px 0;
+}
+.navbar .wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar .wrapper .ul_list{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.links_container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+a, .logo{
+    color: #fff;
+}
+.sign_button_container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.sign_button_container .sign_up{
+    background-color: #FF4820;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.close-icon{
+    width: 100%;
+    margin-bottom: -20px;
+    justify-content: flex-end;
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+@media screen and (max-width:980px) {
+    .close-icon{
+        display: flex;
+    }
+    .links_container{
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 120%;
+        background-color: #fff;
+        padding: 30px 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding-top: 10px;
+        
+    }
+    li a, .sign_button_container .sign_in{
+        color: #000;
+    }
+    .ul_list{
+        gap: 10px !important; 
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .sign_button_container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
