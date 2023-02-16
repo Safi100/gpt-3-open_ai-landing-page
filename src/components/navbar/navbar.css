@@ -31,17 +31,19 @@ a, .logo{
     padding: 15px 30px;
     border-radius: 5px;
 }
-.close-icon{
-    width: 100%;
-    margin-bottom: -20px;
-    justify-content: flex-end;
+.close-icon, .hamb_menu{
     display: none;
-    font-size: 30px;
-    font-weight: 700;
 }
+
 @media screen and (max-width:980px) {
+    .navbar .wrapper{
+        justify-content: space-between;
+    }
     .close-icon{
         display: flex;
+    }
+    .hamb_menu{
+        display: block;
     }
     .links_container{
         border-radius: 10px;
@@ -53,9 +55,7 @@ a, .logo{
         padding: 30px 25px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 30px;
-        padding-top: 10px;
-        
+        gap: 30px;        
     }
     li a, .sign_button_container .sign_in{
         color: #000;
