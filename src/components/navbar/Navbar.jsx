@@ -12,7 +12,7 @@ const Navbar = () => {
                     <div className={`hamb_menu ${(isOpen === true) ? 'hide' : '' }`} onClick={()=> setOpen(true)}><span className='open_btn'><img src={Hamburger} alt="Hamburger-menu"/></span></div>
                     <div className={`close-icon ${(isOpen === false) ? 'hide' : '' }`} onClick={()=> setOpen(false)}><span className='close_btn'><img src={Close} alt="close-icon" /></span></div>
                 </div>
-                <div className={`links_container ${(isOpen === true) ? '' : 'hide' }`}>
+                <div className={`links_container ${(isOpen === true) ? '' : 'hide_menu' }`}>
                     <ul className='ul_list'>
                         <li><a href="/">Home</a></li>
                         <li><a href="/">What is GPT?</a></li>

@@ -13,7 +13,7 @@
     gap: 40px;
 }
 .links_container{
-    display: flex !important;
+    display: flex;
     justify-content: space-between;
     flex: 1;
     align-items: center;
@@ -36,6 +36,9 @@ a, .logo{
 }
 
 @media screen and (max-width:1020px) {
+    .hide_menu{
+        display: none;
+    }
     .navbar .wrapper{
         justify-content: space-between;
     }
