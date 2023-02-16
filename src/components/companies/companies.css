@@ -1,0 +1,17 @@
+.companies_container{
+    padding: 100px 0;
+}
+.companies_container .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.companies_container .wrapper img{
+    flex-basis: 5%;
+}
+@media screen and (max-width: 800px) {
+    .companies_container{
+        padding: 70px 0;
+    }
+}
