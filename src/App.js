@@ -3,6 +3,7 @@ import Header from './components/header/Header'
 import Companies from './components/companies/Companies'
 import Overview from './components/overview/Overview'
 import Feature from './components/feature/Feature'
+import Possibilities from './components/possibilities/Possibilities'
 import './app.css'
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Companies />
       <div className='wrapper'><Overview /></div> 
       <Feature />
+      <Possibilities />
     </div>
   )
 }
