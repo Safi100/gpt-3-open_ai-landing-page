@@ -27,6 +27,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.early_text{
+    color: #FF8A71;
+}
 .wrapper{
     width: 90%;
     max-width: 1200px;
