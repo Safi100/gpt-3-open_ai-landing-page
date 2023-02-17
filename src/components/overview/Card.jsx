@@ -1,6 +1,6 @@
 import React from 'react'
 import './overview.css'
-const Feature = ({heading, body}) => {
+const Card = ({heading, body}) => {
     return (
         <div className='feature'>
             <div className="line"></div>
@@ -10,4 +10,4 @@ const Feature = ({heading, body}) => {
     )
 }
 
-export default Feature
+export default Card

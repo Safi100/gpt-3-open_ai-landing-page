@@ -1,6 +1,6 @@
 import React from 'react'
 import './overview.css'
-import Feature from './feature'
+import Card from './Card'
 const Overview = () => {
     return (
         <div className='overview'>
@@ -16,9 +16,9 @@ const Overview = () => {
                 <span className='exp_text'>Explore The Library</span>
             </div>
             <div className='row row-3'>
-                <Feature heading={"Chatbots"} body={"We so opinion friends me message as delight. Whole front do of plate heard oh ought. "}/>
-                <Feature heading={"Knowledgebase"} body={"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"}/>
-                <Feature heading={"Education"} body={"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"}/>
+                <Card heading={"Chatbots"} body={"We so opinion friends me message as delight. Whole front do of plate heard oh ought. "}/>
+                <Card heading={"Knowledgebase"} body={"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"}/>
+                <Card heading={"Education"} body={"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"}/>
             </div>
         </div>
     )
