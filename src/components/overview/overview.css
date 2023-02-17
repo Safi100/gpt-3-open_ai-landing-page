@@ -41,11 +41,11 @@
 .row-3 > * {
     flex-basis: calc(100% / 3 - 25px);
 }
-.heading_feature{
+.heading_card{
     color: #fff;
     margin-bottom: 20px;
 }
-.body_feature{
+.body_card{
     font-size: 15px;
     color: #81AFDD;
 }
