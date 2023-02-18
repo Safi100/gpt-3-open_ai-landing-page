@@ -26,6 +26,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 800;
 }
 .early_text{
     color: #FF8A71;
