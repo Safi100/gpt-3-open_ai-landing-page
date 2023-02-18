@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gpt-3-open_ai-landing-page/static/css/main.08a43e8e.css",
+    "main.js": "/gpt-3-open_ai-landing-page/static/js/main.67b7b74f.js",
+    "static/media/blog01.png": "/gpt-3-open_ai-landing-page/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/gpt-3-open_ai-landing-page/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/gpt-3-open_ai-landing-page/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/gpt-3-open_ai-landing-page/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/gpt-3-open_ai-landing-page/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/Header-Illustration.png": "/gpt-3-open_ai-landing-page/static/media/Header-Illustration.13c067a4e22fed866032.png",
+    "static/media/Feature_Image.png": "/gpt-3-open_ai-landing-page/static/media/Feature_Image.52ff65db33338aba6822.png",
+    "static/media/people.png": "/gpt-3-open_ai-landing-page/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/gpt-3-open_ai-landing-page/index.html",
+    "main.08a43e8e.css.map": "/gpt-3-open_ai-landing-page/static/css/main.08a43e8e.css.map",
+    "main.67b7b74f.js.map": "/gpt-3-open_ai-landing-page/static/js/main.67b7b74f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08a43e8e.css",
+    "static/js/main.67b7b74f.js"
+  ]
+}
