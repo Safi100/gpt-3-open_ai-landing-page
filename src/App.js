@@ -5,6 +5,7 @@ import Overview from './components/overview/Overview'
 import Feature from './components/feature/Feature'
 import Possibilities from './components/possibilities/Possibilities'
 import Cta from './components/cta/Cta'
+import Blog from './components/blog/Blog'
 import './app.css'
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Feature />
       <Possibilities />
       <div className='wrapper'><Cta /></div>
+      <Blog />
     </div>
   )
 }
