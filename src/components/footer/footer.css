@@ -71,3 +71,13 @@
         font-size: 20px;
     }
 }
+.footer{
+    padding-bottom: 10px;
+}
+.rights{
+    text-align: center;
+    margin-top: 60px;
+}
+.rights a{
+    color: #F49867;
+}

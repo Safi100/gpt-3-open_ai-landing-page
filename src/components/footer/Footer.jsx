@@ -40,6 +40,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                    <p className='rights'>Design by <a href="https://www.arshakir.com/">AR Shakir</a>, Developed by <a href="https://github.com/Safi100">Safi Nafi</a><br />© 2021 GPT-3. All rights reserved.</p>
                 </div>
             </div>
         </div>
