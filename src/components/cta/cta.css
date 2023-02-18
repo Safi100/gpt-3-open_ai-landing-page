@@ -1,0 +1,26 @@
+.CTA{
+    width: 100%;
+    background: linear-gradient(to right, #AE67FA, #F49867);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:30px;
+    margin-top: 100px;
+    row-gap: 20px;
+}
+.cta_text{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.cta_heading_text{
+    font-weight: 800;
+}
+.CTA button{
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    padding: 7px 25px;
+}
