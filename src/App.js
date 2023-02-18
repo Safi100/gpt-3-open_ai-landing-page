@@ -6,6 +6,7 @@ import Feature from './components/feature/Feature'
 import Possibilities from './components/possibilities/Possibilities'
 import Cta from './components/cta/Cta'
 import Blog from './components/blog/Blog'
+import Footer from './components/footer/Footer'
 import './app.css'
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Possibilities />
       <div className='wrapper'><Cta /></div>
       <Blog />
+      <Footer />
     </div>
   )
 }
